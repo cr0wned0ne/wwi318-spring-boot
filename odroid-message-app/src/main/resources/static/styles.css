@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:url(img/background.gif) ;
+}
+
+
+.grid-container {
+    display: grid;
+    color: green;
+    height: 100vh;
+    grid-template-columns: auto;
+    grid-template-rows: 80px auto;
+}
+
+
+.headerBar {
+    background-color: rgba(47, 45, 45, 0.999);
+    opacity: 0.6;
+}
+
+.headerBar h1 {
+    color: white;
+    opacity: 1;
+}
+
+.headerLogo {
+    flex-basis: 7;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: row wrap; */
+    justify-content: center;
+    align-content: center;
+    /*background-color:rgba(211, 211, 211, 0.52);*/
+
+}
+
+.flex-navbar {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+.noBox {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.flex-item {
+    margin: 10px;
+    color: white;
+    background-color: rgba(46, 46, 65, 0.685);
+    text-align: center;
+}
+
+#error, #warning, #success {
+	display: none;
+}
+
+@media screen and (max-width: 700px) {
+
+
+  }
+
